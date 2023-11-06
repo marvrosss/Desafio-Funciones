@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    width: 1200px;
+
+}
+
+main .container .box1 , .box2 , .box3 , .box4{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
