@@ -10,7 +10,7 @@ function pintar2() {
     div.style.backgroundColor = 'black';
   }
     let div2 = document.getElementById("b2");
-    div1.addEventListener("click", pintar2);
+    div2.addEventListener("click", pintar2);
 
 function pintar3() {
     let div = document.getElementById("b3");
@@ -24,4 +24,4 @@ function pintar4() {
     div.style.backgroundColor = 'black';
   }
     let div4 = document.getElementById("b4");
-    div1.addEventListener("click", pintar4);
+    div4.addEventListener("click", pintar4);
