@@ -1,27 +1,23 @@
-function pintar1() {
-    let div = document.getElementById("b1");
-    div.style.backgroundColor = 'black';
+function pintar1(){
+  ele1.style.backgroundColor = 'black'
   }
-    let div1 = document.getElementById("b1");
-    div1.addEventListener("click", pintar1);
+const ele1 = document.getElementById("b1")
+ele1.addEventListener("click", pintar1);
 
-function pintar2() {
-    let div = document.getElementById("b2");
-    div.style.backgroundColor = 'black';
-  }
-    let div2 = document.getElementById("b2");
-    div2.addEventListener("click", pintar2);
+function pintar2(){
+  ele2.style.backgroundColor = 'black'
+}
+const ele2 = document.getElementById("b2")
+ele2.addEventListener("click", pintar2);
 
-function pintar3() {
-    let div = document.getElementById("b3");
-    div.style.backgroundColor = 'black';
+function pintar3(){
+  ele3.style.backgroundColor = 'black'
   }
-    let div3 = document.getElementById("b3");
-    div3.addEventListener("click", pintar3);
+const ele3 = document.getElementById("b3")
+ele3.addEventListener("click", pintar3);
 
-function pintar4() {
-    let div = document.getElementById("b4");
-    div.style.backgroundColor = 'black';
-  }
-    let div4 = document.getElementById("b4");
-    div4.addEventListener("click", pintar4);
+function pintar4(){
+  ele4.style.backgroundColor = 'black'
+}
+const ele4 = document.getElementById("b4")
+ele4.addEventListener("click", pintar4);
